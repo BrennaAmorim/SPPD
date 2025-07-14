@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Repositorio
+comment0.text=\r\n\ Classe\ abstrata\ Repositorio.\r\n\ Define\ a\ interface\ para\ opera\u00E7\u00F5es\ CRUD\ gen\u00E9ricas\ para\ qualquer\ entidade\ de\ modelo.\r\n\ Fornece\ m\u00E9todos\ comuns\ para\ persist\u00EAncia\ usando\ ORMLite.\r\n\r\n\ @param\ <T>\ O\ tipo\ da\ entidade\ (ex\:\ Livro,\ Autor).\r\n\ @param\ <ID>\ O\ tipo\ da\ chave\ prim\u00E1ria\ da\ entidade\ (ex\:\ Integer).\r\n
+comment1.params=database\ entityClass
+comment1.target=Repositorio(Database,\ java.lang.Class)
+comment1.text=\r\n\ Construtor\ do\ Repositorio.\r\n\ @param\ database\ A\ inst\u00E2ncia\ do\ banco\ de\ dados.\r\n\ @param\ entityClass\ A\ classe\ da\ entidade\ que\ este\ reposit\u00F3rio\ ir\u00E1\ manipular.\r\n\ @throws\ SQLException\ Se\ houver\ um\ erro\ de\ SQL\ ao\ inicializar\ o\ DAO\ ou\ criar\ a\ tabela.\r\n
+comment2.params=entity
+comment2.target=java.lang.Object\ create(java.lang.Object)
+comment2.text=\r\n\ Cria\ (insere)\ uma\ nova\ entidade\ no\ banco\ de\ dados.\r\n\ @param\ entity\ A\ entidade\ a\ ser\ criada.\r\n\ @return\ A\ entidade\ criada,\ possivelmente\ com\ IDs\ gerados\ pelo\ banco.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment3.params=id
+comment3.target=java.lang.Object\ read(java.lang.Object)
+comment3.text=\r\n\ Busca\ e\ retorna\ uma\ entidade\ pelo\ seu\ ID.\r\n\ @param\ id\ O\ ID\ da\ entidade\ a\ ser\ buscada.\r\n\ @return\ A\ entidade\ encontrada\ ou\ null\ se\ n\u00E3o\ existir.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment4.params=
+comment4.target=java.util.List\ readAll()
+comment4.text=\r\n\ Retorna\ todas\ as\ entidades\ do\ banco\ de\ dados.\r\n\ @return\ Uma\ lista\ de\ todas\ as\ entidades.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment5.params=entity
+comment5.target=int\ update(java.lang.Object)
+comment5.text=\r\n\ Atualiza\ uma\ entidade\ existente\ no\ banco\ de\ dados.\r\n\ @param\ entity\ A\ entidade\ com\ os\ dados\ atualizados.\r\n\ @return\ O\ n\u00FAmero\ de\ linhas\ afetadas\ (1\ se\ sucesso,\ 0\ se\ falha).\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment6.params=entity
+comment6.target=int\ delete(java.lang.Object)
+comment6.text=\r\n\ Deleta\ uma\ entidade\ do\ banco\ de\ dados.\r\n\ @param\ entity\ A\ entidade\ a\ ser\ deletada.\r\n\ @return\ O\ n\u00FAmero\ de\ linhas\ afetadas\ (1\ se\ sucesso,\ 0\ se\ falha).\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment7.params=
+comment7.target=com.j256.ormlite.dao.Dao\ getDao()
+comment7.text=\r\n\ Retorna\ o\ DAO\ associado\ a\ este\ reposit\u00F3rio.\ Pode\ ser\ \u00FAtil\ para\r\n\ opera\u00E7\u00F5es\ mais\ avan\u00E7adas\ n\u00E3o\ cobertas\ pelos\ m\u00E9todos\ CRUD\ b\u00E1sicos.\r\n\ @return\ O\ objeto\ DAO\ do\ ORMLite.\r\n
+numComments=8

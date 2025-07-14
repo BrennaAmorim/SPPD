@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AppController
+comment0.text=\r\n\ Controlador\ principal\ da\ aplica\u00E7\u00E3o.\r\n\ Respons\u00E1vel\ por\ gerenciar\ a\ TabPane\ e\ a\ estrutura\ geral\ da\ interface.\r\n\ Os\ controladores\ espec\u00EDficos\ de\ cada\ aba\ (Livro,\ Autor)\ ser\u00E3o\ carregados\ via\ fx\:include.\r\n
+comment1.params=
+comment1.target=AppController()
+comment2.params=location\ resources
+comment2.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+numComments=3

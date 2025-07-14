@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AutorRepositorio
+comment0.text=\r\n\ Reposit\u00F3rio\ espec\u00EDfico\ para\ a\ entidade\ Autor,\ estendendo\ a\ classe\ abstrata\ Repositorio.\r\n\ Permite\ realizar\ opera\u00E7\u00F5es\ CRUD\ em\ objetos\ Autor.\r\n
+comment1.params=database
+comment1.target=AutorRepositorio(Database)
+comment1.text=\r\n\ Construtor\ do\ AutorRepositorio.\r\n\ @param\ database\ A\ inst\u00E2ncia\ do\ banco\ de\ dados.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ ao\ inicializar\ o\ reposit\u00F3rio.\r\n
+numComments=2

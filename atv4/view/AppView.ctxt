@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AppView
+comment0.text=\r\n\ Interface\ Gr\u00E1fica\ (GUI)\ principal\ do\ CRUD.\r\n\ Esta\ classe\ \u00E9\ o\ ponto\ de\ entrada\ da\ aplica\u00E7\u00E3o\ JavaFX\ e\ carrega\ o\ FXML\ principal.\r\n
+comment1.params=
+comment1.target=AppView()
+comment2.params=primaryStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment3.params=
+comment3.target=void\ stop()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

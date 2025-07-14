@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Livro
+comment0.text=\r\n\ Classe\ de\ Modelo\ para\ a\ entidade\ Livro.\r\n\ Mapeada\ para\ a\ tabela\ "livro"\ no\ banco\ de\ dados\ usando\ ORMLite.\r\n
+comment1.params=
+comment1.target=Livro()
+comment10.params=
+comment10.target=int\ getAnoPublicacao()
+comment11.params=anoPublicacao
+comment11.target=void\ setAnoPublicacao(int)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.lang.String\ getTitulo()
+comment5.params=titulo
+comment5.target=void\ setTitulo(java.lang.String)
+comment6.params=
+comment6.target=Autor\ getAutor()
+comment7.params=autor
+comment7.target=void\ setAutor(Autor)
+comment8.params=
+comment8.target=java.lang.String\ getIsbn()
+comment9.params=isbn
+comment9.target=void\ setIsbn(java.lang.String)
+numComments=12

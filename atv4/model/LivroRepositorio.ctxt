@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LivroRepositorio
+comment0.text=\r\n\ Reposit\u00F3rio\ espec\u00EDfico\ para\ a\ entidade\ Livro,\ estendendo\ a\ classe\ abstrata\ Repositorio.\r\n\ Herda\ os\ m\u00E9todos\ CRUD\ gen\u00E9ricos\ e\ pode\ ter\ m\u00E9todos\ espec\u00EDficos\ se\ houver\ necessidade\r\n\ de\ consultas\ mais\ complexas\ ou\ l\u00F3gicas\ de\ neg\u00F3cio\ espec\u00EDficas\ para\ Livros.\r\n
+comment1.params=database
+comment1.target=LivroRepositorio(Database)
+comment1.text=\r\n\ Construtor\ do\ LivroRepositorio.\r\n\ @param\ database\ A\ inst\u00E2ncia\ do\ banco\ de\ dados.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ ao\ inicializar\ o\ reposit\u00F3rio.\r\n
+numComments=2

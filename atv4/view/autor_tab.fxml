@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="550.0" prefWidth="760.0" spacing="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AutorController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label alignment="CENTER" text="Cadastro de Autores" textFill="#000000">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+      <GridPane hgap="10.0" prefHeight="150.0" prefWidth="760.0" vgap="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="60.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="60.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="ID:" GridPane.halignment="RIGHT" />
+            <Label text="Nome:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <Label text="Nacionalidade:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+
+            <TextField fx:id="idField" editable="false" promptText="ID Gerado" GridPane.columnIndex="1" />
+            <TextField fx:id="nomeField" promptText="Nome Completo do Autor" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="3"/>
+            <TextField fx:id="nacionalidadeField" promptText="Nacionalidade do Autor" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.columnSpan="3" />
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="760.0" spacing="15.0">
+         <children>
+            <Button fx:id="adicionarButton" onAction="#onAdicionarButtonAction" prefWidth="100.0" text="Adicionar" />
+            <Button fx:id="atualizarButton" onAction="#onAtualizarButtonAction" prefWidth="100.0" text="Atualizar" />
+            <Button fx:id="deletarButton" onAction="#onDeletarButtonAction" prefWidth="100.0" text="Deletar" />
+            <Button fx:id="salvarButton" onAction="#onSalvarButtonAction" prefWidth="100.0" text="Salvar" />
+            <Button fx:id="cancelarButton" onAction="#onCancelarButtonAction" prefWidth="100.0" text="Cancelar" />
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <TableView fx:id="tabela" prefHeight="200.0" prefWidth="760.0" VBox.vgrow="ALWAYS">
+         <columns>
+            <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="nomeCol" prefWidth="300.0" text="Nome" />
+            <TableColumn fx:id="nacionalidadeCol" prefWidth="200.0" text="Nacionalidade" />
+         </columns>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>

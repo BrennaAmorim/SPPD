@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MainApp
+comment0.text=\r\n\ Classe\ principal\ para\ iniciar\ a\ aplica\u00E7\u00E3o\ JavaFX.\r\n\ Esta\ classe\ cont\u00E9m\ o\ m\u00E9todo\ main\ tradicional\ que\ chama\ o\ m\u00E9todo\ launch\ da\ AppView.\r\n\ Isso\ garante\ que\ Application.launch()\ seja\ chamado\ do\ thread\ correto\ (n\u00E3o-JavaFX\ Application\ Thread).\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

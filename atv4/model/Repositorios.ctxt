@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Repositorios
+comment0.text=\r\n\ Classe\ utilit\u00E1ria\ para\ instanciar\ e\ fornecer\ acesso\ aos\ reposit\u00F3rios\ de\ cada\ entidade.\r\n\ Garante\ que\ apenas\ uma\ inst\u00E2ncia\ de\ cada\ reposit\u00F3rio\ seja\ criada\ (Singleton\ pattern\ para\ os\ reposit\u00F3rios).\r\n\ Centraliza\ a\ inicializa\u00E7\u00E3o\ do\ banco\ de\ dados\ e\ dos\ reposit\u00F3rios.\r\n
+comment1.params=dbName
+comment1.target=void\ initialize(java.lang.String)
+comment1.text=\r\n\ Inicializa\ a\ conex\u00E3o\ com\ o\ banco\ de\ dados\ e\ todos\ os\ reposit\u00F3rios.\r\n\ Este\ m\u00E9todo\ deve\ ser\ chamado\ uma\ \u00FAnica\ vez\ no\ in\u00EDcio\ da\ aplica\u00E7\u00E3o\ (ex\:\ em\ AppView.start()).\r\n\ @param\ dbName\ O\ nome\ do\ arquivo\ do\ banco\ de\ dados\ (ex\:\ "app.sqlite").\r\n\ @throws\ SQLException\ Se\ houver\ um\ erro\ de\ SQL\ durante\ a\ inicializa\u00E7\u00E3o.\r\n
+comment2.params=
+comment2.target=LivroRepositorio\ getLivroRepositorio()
+comment2.text=\r\n\ Obt\u00E9m\ a\ inst\u00E2ncia\ do\ LivroRepositorio.\r\n\ @return\ A\ inst\u00E2ncia\ do\ LivroRepositorio.\r\n\ @throws\ IllegalStateException\ Se\ o\ m\u00E9todo\ initialize\ n\u00E3o\ foi\ chamado\ primeiro.\r\n
+comment3.params=
+comment3.target=AutorRepositorio\ getAutorRepositorio()
+comment3.text=\r\n\ Obt\u00E9m\ a\ inst\u00E2ncia\ do\ AutorRepositorio.\r\n\ @return\ A\ inst\u00E2ncia\ do\ AutorRepositorio.\r\n\ @throws\ IllegalStateException\ Se\ o\ m\u00E9todo\ initialize\ n\u00E3o\ foi\ chamado\ primeiro.\r\n
+comment4.params=
+comment4.target=void\ closeDatabase()
+comment4.text=\r\n\ Fecha\ a\ conex\u00E3o\ com\ o\ banco\ de\ dados.\r\n\ Deve\ ser\ chamado\ ao\ encerrar\ a\ aplica\u00E7\u00E3o\ para\ liberar\ recursos.\r\n
+numComments=5
