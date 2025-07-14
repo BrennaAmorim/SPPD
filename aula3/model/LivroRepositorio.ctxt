@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LivroRepositorio
+comment0.text=\r\n\ Reposit\u00F3rio\ para\ a\ entidade\ Livro,\ gerenciando\ opera\u00E7\u00F5es\ CRUD\r\n\ com\ o\ banco\ de\ dados\ usando\ ORMLite.\r\n
+comment1.params=database
+comment1.target=LivroRepositorio(Database)
+comment1.text=\r\n\ Construtor\ do\ reposit\u00F3rio\ de\ livros.\r\n\ @param\ database\ A\ inst\u00E2ncia\ do\ objeto\ Database\ para\ obter\ a\ conex\u00E3o.\r\n
+comment2.params=database
+comment2.target=void\ setDatabase(Database)
+comment2.text=\r\n\ Define\ a\ inst\u00E2ncia\ do\ banco\ de\ dados\ e\ inicializa\ o\ objeto\ DAO\ do\ ORMLite.\r\n\ Tamb\u00E9m\ cria\ a\ tabela\ 'livro'\ se\ ela\ ainda\ n\u00E3o\ existir\ no\ banco\ de\ dados.\r\n\ @param\ database\ A\ inst\u00E2ncia\ do\ Database.\r\n
+comment3.params=livro
+comment3.target=Livro\ create(Livro)
+comment3.text=\r\n\ Cria\ (insere)\ um\ novo\ livro\ no\ banco\ de\ dados.\r\n\ @param\ livro\ O\ objeto\ Livro\ a\ ser\ criado.\r\n\ @return\ O\ objeto\ Livro\ criado,\ com\ o\ ID\ gerado\ pelo\ banco\ de\ dados.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment4.params=livro
+comment4.target=void\ update(Livro)
+comment4.text=\r\n\ Atualiza\ um\ livro\ existente\ no\ banco\ de\ dados.\r\n\ @param\ livro\ O\ objeto\ Livro\ com\ os\ dados\ atualizados\ (o\ ID\ deve\ estar\ preenchido).\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment5.params=livro
+comment5.target=void\ delete(Livro)
+comment5.text=\r\n\ Exclui\ um\ livro\ do\ banco\ de\ dados\ com\ base\ no\ seu\ ID.\r\n\ @param\ livro\ O\ objeto\ Livro\ contendo\ o\ ID\ do\ livro\ a\ ser\ exclu\u00EDdo.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment6.params=id
+comment6.target=Livro\ loadFromId(int)
+comment6.text=\r\n\ Carrega\ um\ livro\ do\ banco\ de\ dados\ pelo\ seu\ ID.\r\n\ @param\ id\ O\ ID\ do\ livro\ a\ ser\ carregado.\r\n\ @return\ O\ objeto\ Livro\ correspondente\ ao\ ID,\ ou\ null\ se\ n\u00E3o\ for\ encontrado.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+comment7.params=
+comment7.target=java.util.List\ loadAll()
+comment7.text=\r\n\ Carrega\ todos\ os\ livros\ presentes\ no\ banco\ de\ dados.\r\n\ @return\ Uma\ lista\ de\ todos\ os\ objetos\ Livro\ encontrados\ no\ banco\ de\ dados.\r\n\ @throws\ SQLException\ Se\ ocorrer\ um\ erro\ SQL.\r\n
+numComments=8

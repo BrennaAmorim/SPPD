@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AppView
+comment0.text=\r\n\ Interface\ Gr\u00E1fica\ (GUI)\ do\ CRUD\ para\ a\ entidade\ Livro.\r\n\ Esta\ classe\ \u00E9\ o\ ponto\ de\ entrada\ da\ aplica\u00E7\u00E3o\ JavaFX\ e\ carrega\ o\ arquivo\ FXML.\r\n\r\n\ @author\ marceloakira\ (e\ melhorias\ por\ IA)\r\n\ @version\ 0.02\r\n
+comment1.params=
+comment1.target=AppView()
+comment2.params=primaryStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ O\ m\u00E9todo\ 'start'\ \u00E9\ o\ principal\ m\u00E9todo\ da\ aplica\u00E7\u00E3o\ JavaFX,\ chamado\ ap\u00F3s\ a\ inicializa\u00E7\u00E3o.\r\n\ Ele\ carrega\ o\ FXML,\ cria\ a\ cena\ e\ exibe\ o\ palco\ (Stage).\r\n\ @param\ primaryStage\ O\ palco\ principal\ da\ aplica\u00E7\u00E3o.\r\n\ @throws\ Exception\ Se\ ocorrer\ um\ erro\ durante\ o\ carregamento\ do\ FXML\ ou\ exibi\u00E7\u00E3o.\r\n
+comment3.params=
+comment3.target=void\ stop()
+comment3.text=\r\n\ O\ m\u00E9todo\ 'stop'\ \u00E9\ chamado\ quando\ a\ aplica\u00E7\u00E3o\ est\u00E1\ prestes\ a\ ser\ encerrada.\r\n\ Aqui,\ garantimos\ que\ o\ programa\ seja\ finalizado\ corretamente.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ O\ m\u00E9todo\ 'main'\ tradicional\ do\ Java.\ \u00C9\ o\ ponto\ de\ entrada\ da\ aplica\u00E7\u00E3o\r\n\ quando\ executada\ como\ um\ programa\ Java\ comum.\ Ele\ delega\ o\ controle\ ao\ JavaFX.\r\n\ @param\ args\ Argumentos\ da\ linha\ de\ comando.\r\n
+numComments=5
