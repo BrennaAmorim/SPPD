@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LivroJsonSerializer
+comment1.params=
+comment1.target=LivroJsonSerializer()
+comment2.params=livro
+comment2.target=java.lang.String\ toJson(Livro)
+comment3.params=json
+comment3.target=Livro\ fromJson(java.lang.String)
+comment4.params=livros
+comment4.target=java.lang.String\ toJsonList(java.util.List)
+comment5.params=json
+comment5.target=java.util.List\ fromJsonList(java.lang.String)
+numComments=6
