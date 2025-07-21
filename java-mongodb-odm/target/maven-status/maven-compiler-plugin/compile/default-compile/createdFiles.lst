@@ -1,0 +1,4 @@
+br\ufg\inf\App.class
+br\ufg\inf\repository\ProdutoRepository.class
+br\ufg\inf\model\Produto.class
+br\ufg\inf\controller\ProdutoController.class
